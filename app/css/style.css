@@ -276,7 +276,7 @@ header a:hover {
     width: 100%;
     margin: auto;
     position: absolute;
-    z-index: 2;
+    /*z-index: 2;*/
     top: 250px;
 }
 .sub-heading {
@@ -286,6 +286,7 @@ header a:hover {
 .sub-heading p {
      font-weight: 700;
     padding-left: 30px;
+    text-shadow: 1px 1px 2px black, 0 0 1em #ccc;
 }
 
 /*Main-col*/
@@ -392,17 +393,19 @@ header a:hover {
 /* Scrollpartners*/
 
 #scrollheader {
-    padding-top: 15px;
     font-size: 28px;
     color: #000;
     text-align: center;
 }
-
+.bx-wrapper {
+    margin-bottom: 30px;
+}
+/*
 .scrollpartners {
     overflow: auto;
     white-space: nowrap;
     scroll-behavior: smooth;
-}
+}*/
 
 /*
 .partner{

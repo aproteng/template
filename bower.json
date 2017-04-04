@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jGrowl": "jgrowl#^1.4.6",
-    "superfish": "^1.7.9"
+    "superfish": "^1.7.9",
+    "bxslider-4": "bxSlider#^4.2.12"
   }
 }
