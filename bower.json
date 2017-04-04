@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "jGrowl": "jgrowl#^1.4.6"
+    "jGrowl": "jgrowl#^1.4.6",
+    "superfish": "^1.7.9"
   }
 }
