@@ -1,0 +1,21 @@
+{
+  "name": "aprotec",
+  "homepage": "https://github.com/yastopchik/ccimain",
+  "authors": [
+    "Yastopchik <yastopch@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jGrowl": "jgrowl#^1.4.6"
+  }
+}
