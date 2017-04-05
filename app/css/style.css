@@ -400,6 +400,11 @@ header a:hover {
 .bx-wrapper {
     margin-bottom: 30px;
 }
+.bx-slider {
+    width: 100%;
+    margin: 0 auto;
+        
+}
 /*
 .scrollpartners {
     overflow: auto;

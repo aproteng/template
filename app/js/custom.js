@@ -10,8 +10,8 @@ $(document)
             autoArrows: false
         })
         $('.scrollpartners').bxSlider({
-            minSlides: 4,
-            maxSlides: 8,
+            minSlides: 2,
+            maxSlides: 20,
             slideWidth: 170,
             slideMargin: 10,
             ticker: true,
