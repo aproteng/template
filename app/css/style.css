@@ -115,6 +115,10 @@ ul.sf-menu>li>a {
     text-decoration: none;
     border: none;
 }
+ul.sf-menu>li>a.disabled {
+    pointer-events: none; 
+    cursor: default;  
+}
 
 
 /*ul.sf-menu li a:hover {
@@ -654,6 +658,19 @@ footer {
     .contact-info p {
         margin: 0;
         text-align: center;
+    }
+    ul.sf-menu>li>a {
+        text-align: left;
+    }
+    ul.sf-menu .dropdown_menu {
+        position: static;
+        display: block;
+        left: 5px;
+        z-index: 5;
+        width: 100%;
+    }
+    .sf-menu li {    
+        white-space: normal;
     }
 }
 
